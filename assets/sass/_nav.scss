@@ -1,0 +1,146 @@
+#nav {
+  margin: auto;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  border-bottom: 1px solid $thirdColor;
+  height: 100px;
+  align-items: center;
+
+  .nav-logo {
+    img {
+
+    }
+    a {
+      p {
+        font-family: latobold;
+        font-size: 28px;
+        color: $secondaryColor;
+
+        span {
+          margin: 5px;
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    font-size: 16px;
+
+    .nav-menu-item {
+      display: flex;
+      margin: auto 10px;
+
+      .nav-item-name {
+        padding: 0 5px;
+
+        a {
+          padding: 0 10px;
+          color: $secondaryColor;
+          font-family: 'latoblack';
+          text-transform: uppercase;
+          transition: padding 0.5s;
+        }
+        a:hover {
+          color: $primaryColor;
+          padding: 0 5px;
+        }
+      }
+      .nav-item-brake-right, .nav-item-brake-left{
+        color: $primaryColor;
+        //display: none;
+      }
+    }
+
+    .nav-menu-item:hover {
+      .nav-item-brake-right, .nav-item-brake-left{
+        display: block;
+      }
+    }
+
+    .nav-menu-item-home {
+      .nav-item-name {
+        padding: 0 5px;
+        a {
+          padding: 0 5px;
+          color: $primaryColor;
+        }
+        a:hover {
+          color: $secondaryColor;
+        }
+      }
+      .nav-item-brake-right, .nav-item-brake-left{
+        color: $secondaryColor;
+        display: none;
+      }
+    }
+  }
+
+  .nav-contact {
+    display: flex;
+    align-items: center;
+
+    .icon-phone {
+      cursor: pointer;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      color: $primaryColor;
+      img {
+        color: $primaryColor;
+        height: 100%;
+      }
+    }
+    .phone-number{
+      font-family: 'latoblack';
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #nav {
+    .nav-logo {
+      img {
+
+      }
+    }
+
+    .nav-menu {
+      .nav-menu-item {
+        .nav-item-brake-left {
+
+        }
+        .nav-item-name {
+
+        }
+        .nav-item-brake-right{
+
+        }
+      }
+      .nav-menu-item-home {
+        .nav-item-brake-left {
+
+        }
+        .nav-item-name {
+
+        }
+        .nav-item-brake-right{
+
+        }
+      }
+    }
+
+    .nav-contact {
+      .icon-phone {
+        img {
+
+        }
+      }
+      .phone-number{
+
+      }
+    }
+  }
+}

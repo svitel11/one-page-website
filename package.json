@@ -1,0 +1,17 @@
+{
+  "name": "fenster",
+  "version": "1.0.0",
+  "description": "Fenster",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Samuel Vitel",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "bootstrap-icons": "^1.0.0-alpha4",
+    "gsap": "^3.2.6",
+    "node-sass": "^4.14.1"
+  }
+}

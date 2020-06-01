@@ -1,0 +1,33 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_nav.scss';
+@import '_slider.scss';
+@import '_about.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background: $backgroundColor;
+  font-family: 'open_sansregular';
+  color: $secondaryColor;
+}
+
+.h-hr {
+  border: none;
+  border-bottom: 2px solid $primaryColor;
+  width: 100px;
+  margin: 0 auto;
+}
