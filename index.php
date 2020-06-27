@@ -13,7 +13,6 @@
     <?php require 'views/nav.php'; ?>
     <?php require 'views/slider.php'; ?>
     <?php require 'views/about.php'; ?>
-
 <script src="./assets/js/app.js"></script>
 </body>
 </html>
